@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>Mi pokedex de a 1</title>
+    </head>
+    <body>
+        <div class="contenedormaximo">
+            <button onclick="consultarPokemon()">buscar</button>
+            <input type="text"/>
+        
+        <div id="contenedorPokemon">
+            <div class="imgcontainer"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png" alt=""></div>
+            <div class="information">
+            <div id="numero_pokemon" class="element-description">
+                Número: #398
+            </div>
+            <div id="nombre_pokemon" class="element-description">
+                Nombre: Staraptor
+            </div>
+            <div id="altura_pokemon" class="element-description">
+                Altura: 1.2m
+            </div>
+            <div id="peso_pokemon" class="element-description">
+                Peso: 24.9 kg
+            </div>
+            <div id="tipo_pokemon" class="element-description">
+                Tipo: Volador
+            </div>
+            </div>
+            <audio class="pokeaudio" controls>
+                <source src="https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/398.ogg">
+            </audio>
+        </div>
+        </div>
+    </body>
+    <script src="js/consultar_pokemon.js"></script>
+</html>
